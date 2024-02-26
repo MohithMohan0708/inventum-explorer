@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="comp.css">
+</head>
+
+<body>
+    <div class="back">
+        <h1 class="headfont">DEPARTMENTS</h1>
+        <div class="favorite-place-card-container d-flex flex-column" href="comp4.html">
+            <h1 class="favorite-place-card-heading">CSE(AI & ML,DS)</h1>
+            <div class="d-flex">
+                <p class="favorite-place-card-paragraph">Computer Science and Engineering (AI & ML, DS) Dept is
+                    conducting many exicting Techinical and Non-Techincal Events.Press the button for knowing more
+                    information regarding events.</p>
+                <image src="CSM PIC.jpg" class="favorite-place-card-image" />
+            </div>
+            <div>
+                <button id="csm-dept-events-btn"><a href="comp2.html">Browse CSM / CSD events</a></button>
+            </div>
+        </div>
+
+        <div class="favorite-place-card-container" onclick="display('section CharminarDetailedView')">
+            <h1 class="favorite-place-card-heading">Computer science and eng</h1>
+            <div class="d-flex">
+                <p class="favorite-place-card-paragraph">Computer Science and Engineering Dept is conducting many
+                    exicting Techinical and Non-Techincal Events.Press the button for knowing more information regarding
+                    events.</p>
+                <image src="CSE PIC.jpg" class="favorite-place-card-image" />
+            </div>
+            <div>
+                <button id="cse-dept-events-btn" class="dept-events-btns"><a href="comp3.html">Browse CSE
+                        events</a></button>
+            </div>
+        </div>
+
+        <div class="favorite-place-card-container flex-column" onclick="display('section GoldenTempleDetailedView')">
+            <h1 class="favorite-place-card-heading">MECHANICAL</h1>
+            <div class="d-flex">
+                <p class="favorite-place-card-paragraph">Mechanical Dept is conducting many exicting Techinical and
+                    Non-Techincal Events.Press the button for knowing more information regarding events.</p>
+                <image src="MECH PIC.jpg" class="favorite-place-card-image" />
+            </div>
+
+            <div>
+                <button id="mech-dept-events-btn" class="mech-dept-events-btns"><a href="#">Browse Mechanical
+                        events</a></button>
+            </div>
+        </div>
+
+        <div class="favorite-place-card-container flex-column" onclick="display('section MeenakshiTempleDetailedView')">
+            <h1 class="favorite-place-card-heading">IT</h1>
+            <div class="d-flex">
+                <p class="favorite-place-card-paragraph">IT Dept is conducting many exicting Techinical and
+                    Non-Techincal Events.Press the button for knowing more information regarding events.</p>
+                <image src="RADIAN PIC.jpg" class="favorite-place-card-image" />
+            </div>
+            <br>
+            <button id="it-dept-events-btn" class="dept-events-btns"><a href="#">Browse IT events</a></button>
+        </div>
+    </div>
+</body>
+
+</html>
