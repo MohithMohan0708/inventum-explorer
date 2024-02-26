@@ -1,0 +1,243 @@
+.home {
+    background-image: url("Anits.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    margin: 20px;
+    opacity: 1;
+}
+
+
+
+.StartBtn {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    bottom: 5%;
+    top: 80%;
+    color: white;
+    font-family: verdana;
+    font-weight: normal;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    padding: 20px;
+    justify-content: center;
+}
+
+/*Third Section*/
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+
+.box {
+    height: 400px;
+    width: 30%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 15px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 3px #767676;
+}
+
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+
+.combox {
+    width: 100%;
+}
+
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.box-content a {
+    font-size: 18px;
+    color: #007185;
+    cursor: pointer;
+}
+
+
+
+.box-content h1 {
+    font-size: 1.7rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform:uppercase;
+}
+
+/*Second Slide*/
+
+.back {
+    background-image: url("6.png");
+    height: 300vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.headfont {
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 30px;
+}
+
+.favorite-place-card-container {
+    background-color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px;
+}
+
+.favorite-place-card-heading {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 46px;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+.favorite-place-card-paragraph {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    line-height: 2rem;
+    padding: 16px;
+    width: 60vw;
+}
+
+
+.favorite-place-card-image {
+    width: 30vw;
+    padding: 10px;
+    border-radius: 12px;
+    position: relative;
+    left: 20px;
+}
+
+/*final Section*/
+
+.backg {
+    background-image: url("6.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.inSection1 {
+    background-color: rgb(167, 166, 166);
+    height: 90vh;
+    width: 55vw;
+    margin-left: 50px;
+
+}
+
+
+.inSection1p {
+    color: black;
+    font-family: Verdana;
+    font-size: 1.5rem;
+}
+
+.inSection2 {
+    background-color: rgb(167, 166, 166);
+}
+
+
+#csm-dept-events-btn {
+    background-color: #111;
+    border: none;
+    offset: none;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+
+#csm-dept-events-btn>a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#csm-dept-events-btn>a:hover {
+    cursor: pointer;
+    color: #d5d5d5;
+}
+
+#cse-dept-events-btn {
+    background-color: #111;
+    border: none;
+    offset: none;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+
+#cse-dept-events-btn>a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#cse-dept-events-btn>a:hover {
+    cursor: pointer;
+    color: #d5d5d5;
+}
+
+#mech-dept-events-btn {
+    background-color: #111;
+    border: none;
+    offset: none;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+
+#mech-dept-events-btn>a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#mech-dept-events-btn>a:hover {
+    cursor: pointer;
+    color: #d5d5d5;
+}
+
+#it-dept-events-btn {
+    background-color: #111;
+    border: none;
+    offset: none;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+
+#it-dept-events-btn>a {
+    color: white;
+    text-decoration: none;
+}
+
+
+#it-dept-events-btn>a:hover {
+    cursor: pointer;
+    color: #d5d5d5;
+}
